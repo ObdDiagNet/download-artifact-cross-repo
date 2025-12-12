@@ -56,7 +56,7 @@ Download all artifacts from the latest successful workflow run:
 
 ```yaml
 - name: Download matching artifacts
-  uses: ObdDiagNet/download-artifact-cross-rep@v1
+  uses: ObdDiagNet/download-artifact-cross-repo@v1
   with:
     pattern: 'build-*'
     github-token: ${{ secrets.GITHUB_TOKEN }}
