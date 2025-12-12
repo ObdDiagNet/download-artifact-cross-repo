@@ -20,7 +20,7 @@ Download all artifacts from the latest successful workflow run:
 
 ```yaml
 - name: Download artifacts
-  uses: ./
+  uses: ObdDiagNet/download-artifact-cross-repo@v1
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
     repository: owner/repo
@@ -31,7 +31,7 @@ Download all artifacts from the latest successful workflow run:
 
 ```yaml
 - name: Download specific artifact
-  uses: ./
+  uses: ObdDiagNet/download-artifact-cross-repo@v1
   with:
     name: my-artifact
     github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -44,7 +44,7 @@ Download all artifacts from the latest successful workflow run:
 
 ```yaml
 - name: Download artifacts by ID
-  uses: ./
+  uses: ObdDiagNet/download-artifact-cross-repo@v1
   with:
     artifact-ids: '123456,789012'
     github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -56,7 +56,7 @@ Download all artifacts from the latest successful workflow run:
 
 ```yaml
 - name: Download matching artifacts
-  uses: ./
+  uses: ObdDiagNet/download-artifact-cross-rep@v1
   with:
     pattern: 'build-*'
     github-token: ${{ secrets.GITHUB_TOKEN }}
