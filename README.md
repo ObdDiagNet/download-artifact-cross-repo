@@ -1,5 +1,5 @@
 # Download Action Artifact with Cross-repository support
-[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-External_Workflow_ID-brightgreen?logo=github)](https://github.com/marketplace/actions/download-artifact-cross-repo)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-DownloadCrossRepo-brightgreen?logo=github)](https://github.com/marketplace/actions/download-a-build-artifact-with-cross-repository-support)
 
 Download [Actions Artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts) from a GitHub Actions workflow run, with support for cross-repository artifact downloads. It is based on [download-artifact](https://github.com/actions/download-artifact) plugin.
 
