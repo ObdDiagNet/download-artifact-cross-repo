@@ -1,8 +1,5 @@
-name: 'Download a Build Artifact With Cross-repository support'
+name: 'Download a Build Artifact'
 description: 'Download a build artifact that was previously uploaded in the workflow by the upload-artifact action'
-branding:
-  icon: 'download-cloud'
-  color: 'blue'
 inputs:
   name:
     description: 'Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.'
@@ -38,5 +35,5 @@ outputs:
   download-path:
     description: 'Path of artifact download'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
